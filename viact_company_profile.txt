@@ -1,0 +1,87 @@
+# General Information
+
+- Company Name: viAct
+- Website: https://www.viact.ai/
+- Headquarters: Hong Kong
+- Industry: Artificial Intelligence, Construction Technology
+- Founded: 2016
+- Description: viAct is a leading AI company focused on providing "Scenario-based Vision Intelligence" solutions for risk-prone workplaces like construction, oil & gas, manufacturing, and facility management. Their solutions utilize AI-powered video analytics to improve safety, optimize costs, and ensure environmental compliance.
+- Challenges that we are facing today
+  - Stagnant Productivity Levels: The productivity of construction remains stuck at the same level as 80 years ago with slow adopting of new technologies
+  - Time & Cost Overruns: Inaccurate project estimates and human error lead to 98% Project Delay and 80% Cost Increased
+  - Safety Issue: Construction has led all industries in the total number of worker deaths; 1 million USD cost per fatal injury
+
+With viAct:
+- 95% Less Accidents
+- 70% Less Manpower Cost
+- Error-free Progress Tracking
+- 1 Million USD Cost saved (Per Injury Case)
+
+# Products:
+- viAct.ai Platform: An AI-powered cloud platform that combines computer vision, edge devices, and a mobile app for automated construction monitoring.
+- 50+ Pre-built AI Modules: These modules address various scenarios in different industries, including:
+  - Safety: Real-time monitoring of PPE usage, fall detection, unsafe behavior detection.
+  - Progress Tracking: Automated task completion tracking, activity recognition, labor productivity analysis.
+  - Environmental Compliance: Dust emission monitoring, noise level monitoring, waste management monitoring.
+
+1. viAct.ai Platform:
+An AI-powered cloud platform that integrates computer vision, edge devices, and a mobile app to enable automated construction monitoring.
+Use Cases:
+- Remote monitoring of construction sites: Provides a 24/7 view of activities, eliminating the need for constant physical presence.
+- Real-time data collection and analysis: Offers insights into progress, safety compliance, and resource utilization.
+- Collaboration and communication: Enables stakeholders to access and share data seamlessly, improving decision-making.
+Why it's important:
+- Reduces costs: Saves time and resources associated with manual monitoring.
+- Improves safety: Identifies potential hazards and enables proactive interventions.
+- Enhances efficiency: Streamlines workflows and optimizes resource allocation.
+
+1. Pre-built AI Modules:
+Over 50 ready-to-use AI modules addressing specific scenarios across various industries.
+Examples:
+- Safety Modules:
+  - PPE Usage Detection: Ensures workers wear required personal protective equipment (PPE) to prevent injuries.
+  - Fall Detection: Identifies potential fall incidents and triggers alerts for immediate response.
+  - Unsafe Behavior Detection: Recognizes actions that could lead to accidents and prompts corrective measures.
+- Progress Tracking Modules:
+  - Task Completion Tracking: Automatically monitors task progress and identifies delays or deviations.
+  - Activity Recognition: Classifies different construction activities for better resource allocation and scheduling.
+  - Labor Productivity Analysis: Evaluates worker efficiency and identifies areas for improvement.
+- Environmental Compliance Modules:
+  - Dust Emission Monitoring: Detects and measures dust levels to ensure compliance with environmental regulations.
+  - Noise Level Monitoring: Tracks noise levels to adhere to noise pollution restrictions.
+  - Waste Management Monitoring: Monitors waste disposal practices and identifies potential environmental risks.
+Why they're important:
+  - Provide targeted solutions: Address specific challenges and pain points in different industries.
+  - Faster deployment: Ready-to-use modules eliminate the need for custom development, saving time and resources.
+  - Scalability: Allow for easy expansion and adaptation to evolving needs.
+
+# News:
+## viAct Makes it to “Forbes Asia 100 To Watch” List 2022
+viAct is so glad to be selected in Forbes Asia 100 to Watch. Thanks ParticleX, The Hong Kong Polytechnic University and all other investors for trusting us for all the support. We would also like to take this moment to acknowledge our clients, without whose trust the journey would have not been possible.
+
+## World of Safety and Health Asia Awards 2022: viAct Awarded Best Product (Technology Category)
+It is a matter of great pride that viAct has been awarded as the Best Product(s)/Service(s) for the World of Safety and Health Asia Awards 2022 (WSHA2022) organized by the World of Safety & Health Asia.
+
+## KPMG Inspiring Real Estate Innovations 2022: viAct is Featured
+viAct is extremely honored to be in KPMG Real Estate Innovations Overview (7th Edition). 40+ Countries, 750+ Companies Worldwide, 6 Companies from Hong Kong and viAct is one of Them.
+
+## Success Story with Autodesk: Speeding decisions through real-time model updates
+“Forge is the ultimate solution for us to improve our clients’ site comprehension and monitoring.” — Gary Ng, We explored various 3D viewing options to integrate into its software systems, but tools were limited to viewing capability.
+
+## BUSINESS GOVirtual Tech Awards 2022: viAct Selected as 'Tech Company of the Year'
+At viAct, AI technology has always been a tool to make world a Sustainable place to live in and this award cherishes our motto. Our founders Gary Ng and Hugo Cheuk attended the Awards Presentation Ceremony.
+
+## Construction Europe: Innocom partnership to reduce construction accidents in Singapore
+Hong Kong-based viAct and Innocom are said to have collaborated to adopt technologies to reduce accident rates and improve sustainability. Innocom becomes exclusive distribution partner in Singapore and Malaysia.
+
+## Digital First Magazine: Why Responsible AI is at the Core of Ensuring Safety in Construction?
+We at viAct highly believe that privacy of data cannot be compromised at any cost and have therefore taken several measures to ensure that our AI does not merely help the AEC industry to ensure safety in their job sites.
+
+## Gary Ng: Exclusive AI Powered Video Analytics Modules for Construction Safety & Productivity
+Exclusive Interview with Bugy.co.uk to introduce exclusive Scenario-Based AI Video Analytics in United Kingdom to ensure better jobsite safety, workforce productivity and mitigate the costing related to accidents from work at height & more.
+
+## viAct announces strategic partnership with Innocom in Singapore
+viAct and Innocom Technologies Pte Ltd., have entered into a strategic partnership to meet the ever increasing demand in Singapore Construction Industry for solutions to improve safety and productivity.
+
+## Tech partnership to reduce accidents in Singapore AEC Industry
+viAct’s AI Video Analytics Solution with Innocom Technologies Pte Ltd in Singapore will run on Singtel Paragon – an all-in-one platform for 5G and Multi-access Edge Computing (MEC) and services orchestration.
