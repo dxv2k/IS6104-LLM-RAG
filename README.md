@@ -1,4 +1,4 @@
-# RAGs
+# Automatic Evaluation with RAGAS & RAGs
 
 
 
