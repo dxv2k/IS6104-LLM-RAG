@@ -37,6 +37,9 @@ from llama_index.indices.multi_modal.retriever import (
     MultiModalVectorIndexRetriever,
 )
 from llama_index.llms import ChatMessage
+from llama_index.llm_predictor import LLMPredictor
+from llama_index.query_engine import MultiStepQueryEngine
+from llama_index.indices.query.query_transform.base import StepDecomposeQueryTransform
 from llama_index.query_engine.multi_modal import SimpleMultiModalQueryEngine
 from llama_index.chat_engine.types import (
     AGENT_CHAT_RESPONSE_TYPE,
@@ -249,18 +252,42 @@ def construct_agent(
 
     extra_info["vector_index"] = vector_index
 
+
+    all_tools = []
     vector_query_engine = vector_index.as_query_engine(
         similarity_top_k=rag_params.top_k
     )
-    all_tools = []
-    vector_tool = QueryEngineTool(
+
+    simple_vector_tool = QueryEngineTool(
         query_engine=vector_query_engine,
         metadata=ToolMetadata(
-            name="vector_tool",
+            name="simple_vector_tool",
             description=("Use this tool to answer any user question over any data."),
         ),
     )
-    all_tools.append(vector_tool)
+    all_tools.append(simple_vector_tool)
+
+    # TODO: add more tools here 
+    llm = OpenAI(temperature=0.8, model="gpt-4", max_tokens=1024)
+    step_decompose_transform = StepDecomposeQueryTransform(
+        verbose=True,
+        llm_predictor=LLMPredictor(llm=llm),
+    )
+    multi_step_query_engine= MultiStepQueryEngine(
+        query_engine=vector_index.as_query_engine(top_k=5),
+        query_transform=step_decompose_transform,
+        index_summary="Use to answer complex question about LoRA research paper",
+        num_steps=3,
+    )
+    multi_step_vector_tool = QueryEngineTool(
+        query_engine=multi_step_query_engine,
+        metadata=ToolMetadata(
+            name="multi_step_vector_tool",
+            description=("Try to priority this tool, use this tool to breakdown and any answer complex question over any data. Try to write down the query very clearly"),
+        ),
+    )
+    all_tools.append(multi_step_vector_tool)
+
     if rag_params.include_summarization:
         summary_index = SummaryIndex.from_documents(
             docs, service_context=service_context
